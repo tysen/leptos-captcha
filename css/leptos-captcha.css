@@ -1,21 +1,21 @@
 /* The outer captcha container */
 .leptos-captcha {
     margin: .5rem 0;
-    border-left: 5px solid hsl(0, 60%, 44%);
+    border-inline-start: 5px solid hsl(0, 60%, 44%);
     line-height: 1;
-    padding-left: .25rem;
-    transition: border-left 250ms;
+    padding-inline-start: .25rem;
+    transition: border-inline-start 250ms;
     color: #3f3f3f;
 }
 
 /* The outer captcha container in pending state */
 .leptos-captcha[data-state="pending"] {
-    border-left: 5px solid hsl(57, 60%, 44%);
+    border-inline-start: 5px solid hsl(57, 60%, 44%);
 }
 
 /* The outer captcha container in verified state */
 .leptos-captcha[data-state="verified"] {
-    border-left: 5px solid hsl(113, 60%, 44%);
+    border-inline-start: 5px solid hsl(113, 60%, 44%);
 }
 
 /* The label for the hidden input */
